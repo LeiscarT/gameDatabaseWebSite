@@ -1,0 +1,31 @@
+.filters{
+    max-width: 1200px;
+    margin: 50px auto;
+    margin-left: 20px;
+   
+
+}
+
+::ng-deep{
+    .mat-form-field-infix{
+        background-color: #fff; 
+    }
+
+    .mat-select-value,
+    .mat-select-arrow,
+    .mat-form-field-hide-placeholder .mat-select-placeholder,
+    .mat-form-field-appearance-legacy .mat-form-field-label {
+        color:#9c1c05 !important;
+        opacity: 1;
+        font-weight: 700;
+    }
+
+    .mat-form-field-infix{
+     border-color: #9C1C05 !important;
+     border-top: none;
+     padding-left: 5px !important;
+    
+    }
+
+
+}
